@@ -7,7 +7,8 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #141e30, #243b55);
+      background: url("20250501_180511_0000.PNG") no-repeat center center fixed;
+      background-size: cover;
       color: white;
       text-align: center;
       padding: 50px;
@@ -42,11 +43,11 @@
   </style>
 </head>
 <body>
-  <h1>ambulance</h1>
+  <h1>Ambulance</h1>
   <p>Appuyez sur le bouton pour lancer le son.</p>
 
   <video id="player" loop controls>
-    <source src="sons/Ambulance.m4a" type="audio/mp4">
+    <source src="sons/Ambulance.m4a" type="video/mp4">
     Ton navigateur ne supporte pas la vidéo HTML5.
   </video>
 
@@ -54,3 +55,4 @@
   <button onclick="document.getElementById('player').play()">Lancer le son</button>
 </body>
 </html>
+
