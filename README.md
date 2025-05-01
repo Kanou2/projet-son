@@ -2,3 +2,19 @@
 https://kanou2.github.io/projet-son/bu.html
 
 https://kanou2.github.io/projet-son/ambulance.html
+
+https://kanou2.github.io/projet-son/centre-commercial.html
+
+https://kanou2.github.io/projet-son/magasin-escalator.html
+
+https://kanou2.github.io/projet-son/metro.html
+
+https://kanou2.github.io/projet-son/monop-piano.html
+
+https://kanou2.github.io/projet-son/oiseau.html
+
+https://kanou2.github.io/projet-son/parc.html
+
+https://kanou2.github.io/projet-son/rue.html
+
+https://kanou2.github.io/projet-son/voitures.html
