@@ -3,13 +3,7 @@ https://kanou2.github.io/projet-son/bu.html
 
 https://kanou2.github.io/projet-son/ambulance.html
 
-
-
-https://kanou2.github.io/projet-son/magasin-escalator.html
-
-https://kanou2.github.io/projet-son/metro.html
-
-https://kanou2.github.io/projet-son/piano.html
+https://kanou2.github.io/projet-son/escalator.html
 
 https://kanou2.github.io/projet-son/oiseau.html
 
