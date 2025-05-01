@@ -5,16 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lecteur Vidéo - BU</title>
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
       font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #141e30, #243b55);
+      background-image: url('Dossier_Objets_et_dispositifs_interactifs_20250501_173147_0000.PNG');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       color: white;
       text-align: center;
-      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     h1 {
       font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
     }
 
     button {
@@ -54,4 +72,3 @@
   <button onclick="document.getElementById('player').play()">Lancer le son</button>
 </body>
 </html>
-
