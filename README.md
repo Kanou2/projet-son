@@ -14,3 +14,7 @@ https://kanou2.github.io/projet-son/voitures.html
 https://kanou2.github.io/projet-son/piano.html
 
 https://kanou2.github.io/projet-son/centre.html
+
+https://kanou2.github.io/projet-son/escalator.html
+
+https://kanou2.github.io/projet-son/metro.html
