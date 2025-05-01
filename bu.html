@@ -5,48 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Lecteur Vidéo - BU</title>
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
+    body {
       font-family: Arial, sans-serif;
-      background-color: black; /* pour éviter fond blanc autour de l'image */
-    }
-
-    /* Image de fond entière visible */
-    .background {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      object-fit: contain;
-      z-index: -1;
-    }
-
-    /* Contenu centré */
-    .content {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      background: url("20250501_180511_0000.PNG") no-repeat center center fixed;
+      background-size: cover;
       color: white;
-      padding: 20px;
-      box-sizing: border-box;
+      text-align: center;
+      padding: 50px;
     }
 
     h1 {
       font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      margin-bottom: 20px;
-      font-size: 1.1em;
     }
 
     button {
@@ -65,28 +34,25 @@
     }
 
     video {
-      display: none; /* caché mais actif */
+      margin-top: 30px;
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #fff;
+      border-radius: 10px;
     }
   </style>
 </head>
 <body>
+  <h1>BU</h1>
+  <p>Appuyez sur le bouton pour lancer le son.</p>
 
-  <!-- Image de fond visible en entier -->
-  <img class="background" src="Dossier_Objets_et_dispositifs_interactifs_20250501_173147_0000.PNG" alt="Fond" />
+  <video id="player" loop controls>
+    <source src="sons/BU.mp4" type="video/mp4">
+    Ton navigateur ne supporte pas la vidéo HTML5.
+  </video>
 
-  <div class="content">
-    <h1>BU</h1>
-    <p>Appuyez sur le bouton pour lancer le son.</p>
-
-    <!-- Son (vidéo audio seulement) en boucle -->
-    <video id="player" loop>
-      <source src="sons/BU.mp4" type="video/mp4">
-      Ton navigateur ne supporte pas la vidéo HTML5.
-    </video>
-
-    <button onclick="document.getElementById('player').play()">Lancer le son</button>
-  </div>
-
+  <br />
+  <button onclick="document.getElementById('player').play()">Lancer le son</button>
 </body>
 </html>
 
