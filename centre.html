@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Melodie Cubique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url("20250501_180511_0000.PNG") no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      margin-top: 20px;
+      border: none;
+      border-radius: 8px;
+      background-color: #00c9ff;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #007ea7;
+    }
+
+    video {
+      margin-top: 30px;
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #fff;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p>Appuyez sur le bouton pour lancer le son.</p>
+
+  <video id="player" loop controls>
+    <source src="sons/centre.m4a" type="video/mp4">
+    Ton navigateur ne supporte pas la vidéo HTML5.
+  </video>
+
+  <br />
+  <button onclick="document.getElementById('player').play()">Lancer le son</button>
+</body>
+</html>
