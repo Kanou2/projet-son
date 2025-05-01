@@ -1,4 +1,4 @@
 # lien sons 
-https://kanou2.github.io/son-bu/bu.html
+https://kanou2.github.io/projet-son/bu.html
 
-https://kanou2.github.io/son-bu/Ambulance.html
+https://kanou2.github.io/projet-son/Ambulance.html
